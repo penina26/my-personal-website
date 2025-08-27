@@ -2,14 +2,182 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Penina Wanyama - Portfolio</title>
+    <meta name="description" content="Personal website for projects in Data Science and Data Engineering." />
     <link rel="stylesheet" href="style.css" />
-    <title>My Personal Website</title>
 </head>
 
 <body>
-    <h1>Hello World!</h1>
+    <!-- Header / Nav -->
+    <header class="site-header" id="home">
+        <nav class="nav container" aria-label="Primary">
+            <a class="brand" href="#home">
+                <img src="images/image.jpg" alt="Penina Wanyama" class="brand-logo">
+                Penina Wanyama
+            </a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+            <div id="menu" class="menu">
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a class="btn" target="_blank" rel="noreferrer" href="https://github.com/penina26">↗ GitHub</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero container" aria-labelledby="intro-title">
+        <div class="hero-copy reveal">
+            <h1 id="intro-title">Hello, I’m Penina 👋</h1>
+            <p class="lede">
+                I build data-driven tools and pipelines. I love NLP, dashboards, and transforming raw data into reliable
+                systems.
+            </p>
+            <div class="cta">
+                <a class="btn" href="#projects">See my work</a>
+                <a class="btn ghost" href="#contact">Get in touch</a>
+            </div>
+        </div>
+        <div class="hero-card reveal" aria-hidden="true">
+            <div class="stat"><strong>15k+</strong><span>Tickets analyzed</span></div>
+            <div class="stat"><strong>4</strong><span>Deployed dashboards</span></div>
+            <div class="stat"><strong>3</strong><span>Data pipelines built</span></div>
+            <div class="stat"><strong>1</strong><span>Recommender System</span></div>
+        </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="container" aria-labelledby="projects-title">
+        <div class="section-head">
+            <h2 id="projects-title">Featured Projects</h2>
+            <p class="muted">Filter by category</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Project filters">
+            <button class="filter active" data-filter="all">All</button>
+            <button class="filter" data-filter="nlp">NLP</button>
+            <button class="filter" data-filter="dashboard">Dashboard</button>
+            <button class="filter" data-filter="dataeng">Data Engineering</button>
+        </div>
+
+        <div class="grid">
+            <article class="card reveal project" data-category="nlp">
+                <h3 class="hoverable">ITSM Topic Modeling</h3>
+                <p>BERTopic + sentiment pipeline surfacing themes in 15k+ tickets.</p>
+                <div class="tags">
+                    <span class="tag">Python</span><span class="tag">BERTopic</span><span class="tag">NLP</span>
+                </div>
+            </article>
+
+            <article class="card reveal project" data-category="dashboard">
+                <h3 class="hoverable">Ops Insights Dashboard</h3>
+                <p>Real-time ticket trends and SLA performance with drilldowns.</p>
+                <div class="tags">
+                    <span class="tag">Dash</span><span class="tag">Plotly</span><span class="tag">SQL</span>
+                </div>
+            </article>
+
+            <article class="card reveal project" data-category="dataeng">
+                <h3 class="hoverable">ETL Pipeline Automation</h3>
+                <p>Designed and deployed automated data pipelines for analytics readiness.</p>
+                <div class="tags">
+                    <span class="tag">Python</span><span class="tag">Airflow</span><span class="tag">ETL</span>
+                </div>
+            </article>
+
+            <article class="card reveal project" data-category="dashboard">
+                <h3 class="hoverable">Teams Direct Routing Monitor</h3>
+                <p>Quality and uptime for voice, with alerts and weekly reports.</p>
+                <div class="tags">
+                    <span class="tag">Power BI</span><span class="tag">Tableau</span><span class="tag">Automation</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="container" aria-labelledby="about-title">
+        <div class="section-head">
+            <h2 id="about-title">Who I am</h2>
+        </div>
+        <div class="my-about">
+            <div class="panel-about reveal">
+                <p>
+                    I am a data scientist with expertise in artificial intelligence, machine learning,
+                    and advanced
+                    analytics. My work combines a strong foundation in IT operations with a passion for transforming
+                    data into actionable insights that drive efficiency and innovation. From building intelligent
+                    pipelines and predictive models to automating IT services and supporting decision-making, I leverage
+                    AI and data science to solve complex problems and create meaningful impact in both organizational
+                    and humanitarian contexts.
+                </p>
+                <p>Off-duty, I enjoy mentoring, writing,reading fictional books, dancing and tinkering with new ML
+                    models.</p>
+                <h3 class="skills">Skills</h3>
+                <div class="list">
+                    <span class="chip">Python</span>
+                    <span class="chip">pandas</span>
+                    <span class="chip">Numpy</span>
+                    <span class="chip">Tensorflow</span>
+                    <span class="chip">Pytorch</span>
+                    <span class="chip">LLM</span>
+                    <span class="chip">LangChain</span>
+                    <span class="chip">R</span>
+                    <span class="chip">Shiny</span>
+                    <span class="chip">SQL</span>
+                    <span class="chip">ETL</span>
+                    <span class="chip">Airflow</span>
+                    <span class="chip">pySpark</span>
+                    <span class="chip">Plotly/Dash</span>
+                    <span class="chip">Seaborn/Matplolib</span>
+                    <span class="chip">React</span>
+                    <span class="chip">Git/GitHub</span>
+                    <span class="chip">Research</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="container" aria-labelledby="contact-title">
+        <div class="section-head">
+            <h2 id="contact-title">Contact Me</h2>
+        </div>
+        <form id="contactForm" class="panel" novalidate>
+            <div id="formNote" class="form-note" role="alert" aria-live="polite" hidden></div>
+            <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4"
+                    placeholder="Hi Penina, I’d like to talk about…"></textarea>
+            </div>
+            <div class="actions">
+                <button type="submit" class="btn">Send</button>
+            </div>
+
+        </form>
+    </section>
+
+
+    <footer>
+        <p>© <span id="year"></span> Penina Wanyama • Built with HTML, CSS & JS • Hosted on GitHub Pages</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 
