@@ -1,10 +1,7 @@
-// Helpers
-const $ = (sel, ctx = document) => ctx.querySelector(sel);
-const $$ = (sel, ctx = document) => Array.from(ctx.querySelectorAll(sel));
-
 // Mobile nav 
-const navToggle = $('.nav-toggle');
-const menu = $('#menu');
+const navToggle = document.querySelector('.nav-toggle');
+const menu = document.querySelector('#menu');
+
 if (navToggle && menu) {
     navToggle.addEventListener('click', () => {
         const open = menu.classList.toggle('show');
@@ -12,9 +9,10 @@ if (navToggle && menu) {
     });
 }
 
-//  Filters Projects
-const filterButtons = $$('.filter');
-const projects = $$('.project');
+// Filters Projects
+const filterButtons = document.querySelectorAll('.filter');
+const projects = document.querySelectorAll('.project');
+
 filterButtons.forEach(btn => {
     btn.addEventListener('click', () => {
         // set active state
@@ -120,14 +118,12 @@ if (form) {
     });
 }
 
-
-
 // Footer year 
-const year = $('#year');
+const year = document.querySelector('#year');
 if (year) year.textContent = new Date().getFullYear();
 
 // Simple reveal on scroll 
-const reveals = $$('.reveal');
+const reveals = document.querySelectorAll('.reveal');
 const onScroll = () => {
     const trigger = window.innerHeight * 0.88;
     reveals.forEach(el => {
