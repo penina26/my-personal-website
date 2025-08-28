@@ -89,7 +89,7 @@ if (form) {
             return;
         }
 
-        showNote('success', 'Thanks! Your message has been recorded (demo).');
+        showNote('success', 'Thanks! Your message has been recorded.');
         form.reset();
     });
 
