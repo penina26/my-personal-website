@@ -9,24 +9,6 @@ if (navToggle && menu) {
     });
 }
 
-// Filters Projects
-const filterButtons = document.querySelectorAll('.filter');
-const projects = document.querySelectorAll('.project');
-
-filterButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-        // set active state
-        filterButtons.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-
-        const filter = btn.dataset.filter;
-        projects.forEach(card => {
-            const cat = card.dataset.category;
-            const show = (filter === 'all') || (cat === filter);
-            card.style.display = show ? '' : 'none';
-        });
-    });
-});
 
 // Contact Form Validation 
 const form = document.querySelector('#contactForm');
@@ -122,14 +104,4 @@ if (form) {
 const year = document.querySelector('#year');
 if (year) year.textContent = new Date().getFullYear();
 
-// Simple reveal on scroll 
-const reveals = document.querySelectorAll('.reveal');
-const onScroll = () => {
-    const trigger = window.innerHeight * 0.88;
-    reveals.forEach(el => {
-        const { top } = el.getBoundingClientRect();
-        if (top < trigger) el.classList.add('in');
-    });
-};
-window.addEventListener('scroll', onScroll, { passive: true });
-window.addEventListener('load', onScroll);
+
