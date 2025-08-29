@@ -3,11 +3,55 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Penina Wanyama - Portfolio</title>
-    <meta name="description" content="Personal website for projects in Data Science and Data Engineering." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Primary Meta -->
+    <title>Penina Wanyama | Data Science & Data Engineering Portfolio</title>
+    <meta name="description"
+        content="Portfolio showcasing projects in Data Science, Machine Learning, and Data Engineering by Penina Wanyama." />
+    <meta name="keywords"
+        content="Penina Wanyama, data science portfolio, data engineering, machine learning, NLP, topic modeling, BERTopic, sentiment analysis, ETL, Airflow, Python, Plotly Dash, SQL, Power BI, Tableau, analytics projects, GitHub Pages" />
+    <meta name="author" content="Penina Wanyama" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://penina26.github.io/my-personal-website/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Penina Wanyama | Data Science & Data Engineering Portfolio" />
+    <meta property="og:description" content="Projects in ML, ETL, dashboards, and automation." />
+    <meta property="og:url" content="https://penina26.github.io/my-personal-website/" />
+    <meta property="og:image" content="https://penina26.github.io/my-personal-website/images/og-cover.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Penina Wanyama | Data Science & Data Engineering Portfolio" />
+    <meta name="twitter:description" content="Showcasing data science and engineering projects." />
+    <meta name="twitter:image" content="https://penina26.github.io/my-personal-website/images/og-cover.jpg" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0b0b0b" />
+
+    <!-- Styles -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Penina Wanyama",
+      "url": "https://penina26.github.io/my-personal-website/",
+      "jobTitle": "Data Scientist",
+      "sameAs": [
+        "https://www.linkedin.com/in/penina-wanyama-847408230//",
+        "https://github.com/penina26"
+      ]
+    }
+    </script>
 </head>
+
 
 <body>
     <!-- Header / Nav -->
@@ -28,7 +72,7 @@
 
     <!-- Hero -->
     <section class="hero" aria-labelledby="intro-title">
-        <div class="hero-copy reveal">
+        <div class="hero-copy">
             <h1 id="intro-title">Hello, I’m<br> Penina <br> <Strong>Data Scientist/ML Engineer</Strong></h1>
             <div class="cta">
                 <a class="btn ghost" href="#projects">See my work</a>
@@ -55,7 +99,8 @@
                 <h3 class="hoverable">Ops Insights Dashboard</h3>
                 <p>Real-time ticket trends and SLA performance with drilldowns.</p>
                 <div class="tags">
-                    <span class="tag">Dash</span><span class="tag">Plotly</span><span class="tag">SQL</span>
+                    <span class="tag">Dash/Plotly</span><span class="tag">Power BI/Tableau</span><span
+                        class="tag">SQL</span>
                 </div>
             </article>
 
@@ -68,10 +113,11 @@
             </article>
 
             <article class="card project">
-                <h3 class="hoverable">Teams Direct Routing Monitor</h3>
-                <p>Quality and uptime for voice, with alerts and weekly reports.</p>
+                <h3 class="hoverable">Restaurant Recommender System</h3>
+                <p>Built a personalized recommender system for EatOut to improve restaurant discovery and user
+                    engagement</p>
                 <div class="tags">
-                    <span class="tag">Power BI</span><span class="tag">Tableau</span><span class="tag">Automation</span>
+                    <span class="tag">NLP</span><span class="tag">Flask/SQL</span><span class="tag">React</span>
                 </div>
             </article>
         </div>
@@ -80,11 +126,11 @@
     <!-- About -->
     <section id="about" class="container" aria-labelledby="about-title">
         <div class="section-head">
-            <h2 id="about-title"><strong>About Me</strong></h2>
+            <h2 id="about-title" class="hoverable"><strong>About Me</strong></h2>
         </div>
         <div class="my-about" style="margin-top: -15;">
             <div class="panel-about">
-                <p style="padding-top: -25px;">
+                <p class="bio">
                     I am a data scientist with expertise in artificial intelligence, machine learning,
                     and advanced
                     analytics. My work combines a strong foundation in IT operations with a passion for transforming
@@ -93,7 +139,8 @@
                     AI and data science to solve complex problems and create meaningful impact in both organizational
                     and humanitarian contexts.
                 </p>
-                <p>Off-duty, I enjoy mentoring, writing,reading fictional books, dancing and tinkering with new ML
+                <p class="bio">Off-duty, I enjoy mentoring, writing,reading fictional books, dancing and tinkering with
+                    new ML
                     models.</p>
                 <h3 class="skills">Skills</h3>
                 <div class="list" style="padding-bottom: 20px;">
@@ -128,7 +175,7 @@
     <!-- Contact -->
     <section id="contact" class="container" aria-labelledby="contact-title">
         <div class="section-head">
-            <h2 id="contact-title"><strong>Send me a Message..</strong></h2>
+            <h2 id="contact-title"><strong>Get in Touch</strong></h2>
         </div>
         <form id="contactForm" class="panel" novalidate>
             <div id="formNote" class="form-note" role="alert" aria-live="polite" hidden></div>
@@ -151,7 +198,6 @@
 
         </form>
     </section>
-
 
     <footer>
         <p>&copy; <span id="year"></span> Penina Wanyama | Built with HTML, CSS & JS | Hosted on GitHub Pages</p>

@@ -9,7 +9,6 @@ if (navToggle && menu) {
     });
 }
 
-
 // Contact Form Validation 
 const form = document.querySelector('#contactForm');
 let note = document.querySelector('#formNote');
