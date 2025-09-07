@@ -13,3 +13,5 @@
     <li>Zero dependencies: no frameworks required</li>
     <li>Tiny Js script: dynamic footer year + client‑side form validation</li>
 </ul>
+
+## Tech Stack
