@@ -19,4 +19,5 @@
     <li>HTML5 for structure</li>
     <li>CSS3 for layout and styling (custom properties / variables)</li>
     <li>Vanilla JS for navigation toggle and form validation</li>
+    <li>GitHub Pages for hosting</li>
 </ul>
