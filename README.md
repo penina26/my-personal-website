@@ -31,6 +31,7 @@ my-personal-website/
 ├─ images/
 │ ├─ cover1.jpeg # Hero background image
 │ └─ og-cover.jpg # Social preview image (Open Graph/Twitter)
+```
 
 
 ## Getting Started (Local)
