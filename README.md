@@ -23,6 +23,7 @@
 </ul>
 
 ## Project Structure
+```text
 my-personal-website/
 ├─ index.html # Main page (hero, projects, about, contact)
 ├─ style.css # Global styles
@@ -34,6 +35,6 @@ my-personal-website/
 
 ## Getting Started (Local)
 <strong>Clone this repository</strong> <br>
-<git clone https://github.com/penina26/my-personal-website.git
-cd my-personal-website>
+git clone https://github.com/penina26/my-personal-website.git
+
 
