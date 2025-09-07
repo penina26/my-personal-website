@@ -21,3 +21,13 @@
     <li>Vanilla JS for navigation toggle and form validation</li>
     <li>GitHub Pages for hosting</li>
 </ul>
+
+## Project Structure
+my-personal-website/
+├─ index.html # Main page (hero, projects, about, contact)
+├─ style.css # Global styles
+├─ script.js # Mobile nav + form validation + footer year
+├─ images/
+│ ├─ cover1.jpeg # Hero background image
+│ └─ og-cover.jpg # Social preview image (Open Graph/Twitter)
+
