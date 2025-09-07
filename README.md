@@ -11,5 +11,5 @@
     <li>SEO‑ready: descriptive <title>, meta description/keywords, canonical URL, Open Graph & Twitter cards</li>
     <li>Clean UI elements: tags/chips, animated hover underline, dark theme</li>
     <li>Zero dependencies: no frameworks required</li>
-    <!-- <li>Tiny Js script: dynamic footer year + client‑side form validation</li> -->
+    <li>Tiny Js script: dynamic footer year + client‑side form validation</li>
 </ul>
