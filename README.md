@@ -29,8 +29,8 @@ my-personal-website/
 ├─ style.css # Global styles
 ├─ script.js # Mobile nav + form validation + footer year
 ├─ images/
-│ ├─ cover1.jpeg # Hero background image
-│ └─ og-cover.jpg # Social preview image (Open Graph/Twitter)
+ ├─ cover1.jpeg # Hero background image
+ └─ og-cover.jpg # Social preview image (Open Graph/Twitter)
 ```
 
 
