@@ -263,9 +263,9 @@ body {
     color: #fff;
 }
 
-.bio {
+/* .bio {
     font-family: 'Libertinus Mono';
-}
+} */
 
 .panel {
     /* background: #5b7b7a; */
@@ -418,7 +418,7 @@ footer {
         position: absolute;
         right: 16px;
         top: 60px;
-        background: #333;
+        background: transparent;
         border-radius: 12px;
         padding: 10px;
         display: none;
