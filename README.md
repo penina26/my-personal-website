@@ -7,4 +7,5 @@
 ## Features
 <ul>
     <li>Responsive layout with a project grid and mobile nav (hamburger, expandable menu)</li>
+    <li>Accessible contact form with inline validation, ARIA alerts, and error highlighting</li>
 </ul>
