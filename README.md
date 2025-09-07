@@ -9,4 +9,5 @@
     <li>Responsive layout with a project grid and mobile nav (hamburger, expandable menu)</li>
     <li>Accessible contact form with inline validation, ARIA alerts, and error highlighting</li>
     <li>SEO‑ready: descriptive <title>, meta description/keywords, canonical URL, Open Graph & Twitter cards</li>
+    <li>Clean UI elements: tags/chips, animated hover underline, dark theme</li>
 </ul>
