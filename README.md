@@ -31,3 +31,9 @@ my-personal-website/
 │ ├─ cover1.jpeg # Hero background image
 │ └─ og-cover.jpg # Social preview image (Open Graph/Twitter)
 
+
+## Getting Started (Local)
+<strong>Clone this repository</strong> <br>
+<git clone https://github.com/penina26/my-personal-website.git
+cd my-personal-website>
+
