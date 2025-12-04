@@ -99,6 +99,28 @@ if (form) {
     });
 }
 
+// Back to top button
+const backToTopBtn = document.querySelector('#backToTop');
+if (backToTopBtn) {
+    // show button after scrolling down a bit
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 400) {
+            backToTopBtn.classList.add('show');
+        } else {
+            backToTopBtn.classList.remove('show');
+        }
+    });
+
+    // Smooth scroll to Hero section
+    backToTopBtn.addEventListener('click', () => {
+        const hero = document.getElementById('hero');
+        if (hero) {
+            hero.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+
+}
+
 // Footer year 
 const year = document.querySelector('#year');
 if (year) year.textContent = new Date().getFullYear();

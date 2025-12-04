@@ -33,6 +33,11 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="theme-color" content="#0b0b0b" />
 
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Styles -->
     <link rel="stylesheet" href="style.css" />
 
@@ -58,25 +63,41 @@
     <header class="site-header" id="home">
         <nav class="nav container" aria-label="Primary">
             <a class="brand" href="#home">
-                Pesh-AI
+                <i class="fa-solid fa-brain ds-icon fa-lg"></i>
+                <span>Pesh-AI</span>
             </a>
-            <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="menu">&#9776;</button>
             <div id="menu" class="menu">
-                <a href="#projects">PROJECTS</a>
-                <a href="#about">ABOUT</a>
-                <a href="#contact">CONTACT</a>
-                <a class="btn" target="_blank" rel="noreferrer" href="https://github.com/penina26">↗ GitHub</a>
+                <a href="#projects">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <span>PROJECTS</span>
+                </a>
+                <a href="#about">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <span>ABOUT</span>
+                </a>
+                <a href="#contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>CONTACT</span>
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/penina26">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </a>
             </div>
         </nav>
     </header>
 
     <!-- Hero -->
-    <section class="hero" aria-labelledby="intro-title">
+    <section id="hero" class="hero" aria-labelledby="intro-title">
         <div class="hero-copy">
-            <h1 id="intro-title">Hello, I’m<br> Penina <br> <Strong>Data Scientist/ML Engineer</Strong></h1>
+            <h1 id="intro-title">Hello, I’m<br> Penina <br> <Strong>Data Scientist</Strong></h1>
             <div class="cta">
                 <a class="btn ghost" href="#projects">See my work</a>
-                <a class="btn ghost" href="#contact">Get in touch</a>
+                <a class="btn ghost" href="#contact">
+                    <i class="fa-solid fa-message"></i>
+                    <span>Let's Chat..</span>
+                </a>
             </div>
         </div>
     </section>
@@ -88,7 +109,7 @@
 
         <div class="grid">
             <article class="card project" data-category="nlp">
-                <h3 class="hoverable">ITSM Topic Modeling</h3>
+                <h3 class="hoverable">ITSM Topic Modeling & Sentiment Analysis</h3>
                 <p>BERTopic + sentiment pipeline surfacing themes in 15k+ tickets.</p>
                 <div class="tags">
                     <span class="tag">Python</span><span class="tag">BERTopic</span><span class="tag">NLP</span>
@@ -96,19 +117,18 @@
             </article>
 
             <article class="card project">
-                <h3 class="hoverable">Ops Insights Dashboard</h3>
-                <p>Real-time ticket trends and SLA performance with drilldowns.</p>
+                <h3 class="hoverable">Customer Churn Prediction</h3>
+                <p>ML model flagging at-risk customers to guide retention actions.</p>
                 <div class="tags">
-                    <span class="tag">Dash/Plotly</span><span class="tag">Power BI/Tableau</span><span
-                        class="tag">SQL</span>
+                    <span class="tag">Python</span><span class="tag">ML</span><span class="tag">Churn</span>
                 </div>
             </article>
 
             <article class="card project">
-                <h3 class="hoverable">ETL Pipeline Automation</h3>
+                <h3 class="hoverable">ETL Pipeline Automation & dashboards</h3>
                 <p>Designed and deployed automated data pipelines for analytics readiness.</p>
                 <div class="tags">
-                    <span class="tag">Python</span><span class="tag">Airflow</span><span class="tag">ETL</span>
+                    <span class="tag">SQL</span><span class="tag">Visualization</span><span class="tag">ETL</span>
                 </div>
             </article>
 
@@ -124,12 +144,12 @@
     </section>
 
     <!-- About -->
-    <section id="about" class="container" aria-labelledby="about-title">
+    <section id="about" aria-labelledby="about-title">
         <div class="section-head">
             <h2 id="about-title" class="hoverable"><strong>About Me</strong></h2>
         </div>
         <div class="my-about" style="margin-top: -15;">
-            <div class="panel-about">
+            <div class="panel-about container">
                 <p class="bio">
                     I am a data scientist with expertise in artificial intelligence, machine learning,
                     and advanced
@@ -142,7 +162,7 @@
                 <p class="bio">Off-duty, I enjoy mentoring, writing,reading fictional books, dancing and tinkering with
                     new ML
                     models.</p>
-                <h3 class="skills">Skills</h3>
+                <h3 class="skills"><i class="fa-solid fa-code skills-icon"></i>Skills</h3>
                 <div class="list" style="padding-bottom: 20px;">
                     <span class="chip">Python</span>
                     <span class="chip">pandas</span>
@@ -166,18 +186,54 @@
                     <span class="chip">React</span>
                     <span class="chip">Git/GitHub</span>
                     <span class="chip">Research</span>
+                    <span class="chip">HTML</span>
+                    <span class="chip">JS</span>
+                    <span class="chip">CSS</span>
+                    <span class="chip">Agentic AI</span>
                 </div>
+                <!-- education -->
+                <h3 class="skills">Education</h3>
+                <ul class="edu-list">
+                    <li>
+                        <i class="fa-solid fa-graduation-cap edu-icon"></i>
+                        <div>
+                            <span class="edu-degree">MSc Data Science</span>
+                            <span class="edu-meta">University of Nairobi · 2023 – 2025</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-certificate edu-icon"></i>
+                        <div>
+                            <span class="edu-degree">Data Science Bootcamp</span>
+                            <span class="edu-meta">Moringa School · 2022 - 2023 </span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-certificate edu-icon"></i>
+                        <div>
+                            <span class="edu-degree">Statistics for Data Science</span>
+                            <span class="edu-meta">Perian School · 2022</span>
+                        </div>
+                    </li>
 
+                    <li>
+                        <i class="fa-solid fa-graduation-cap edu-icon"></i>
+                        <div>
+                            <span class="edu-degree">BSc Computer Science</span>
+                            <span class="edu-meta">Kisii Univeristy · 2010 - 2014</span>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="container" aria-labelledby="contact-title">
+    <section id="contact" aria-labelledby="contact-title">
         <div class="section-head">
             <h2 id="contact-title"><strong>Get in Touch</strong></h2>
         </div>
-        <form id="contactForm" class="panel" novalidate>
+        <form id="contactForm" class="panel container" novalidate>
             <div id="formNote" class="form-note" role="alert" aria-live="polite" hidden></div>
             <div class="field">
                 <label for="name">Name</label>
@@ -202,6 +258,9 @@
     <footer>
         <p>&copy; <span id="year"></span> Penina Wanyama | Built with HTML, CSS & JS | Hosted on GitHub Pages</p>
     </footer>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
 
     <script src="script.js"></script>
 </body>
