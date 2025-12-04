@@ -6,8 +6,7 @@
 
 ## Features
 <ul>
-    <li>Responsive layout with a project grid and mobile nav (hamburger, expandable menu)</li>
-    <li>Scrollspy navigation: active menu item highlights as you scroll through sections</li>
+    <li>Responsive layout with a project grid and mobile nav (hamburger, expandable menu)</li>    
     <li>Back-to-top button with smooth scrolling back to the hero section</li>
     <li>Accessible contact form with inline validation, ARIA alerts, and error highlighting</li>
     <li>SEO-ready: descriptive <code>&lt;title&gt;</code>, meta description/keywords, canonical URL, Open Graph &amp; Twitter cards</li>
