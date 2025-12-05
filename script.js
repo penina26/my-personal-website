@@ -121,6 +121,44 @@ if (backToTopBtn) {
 
 }
 
+// Scrollspy using IntersectionObserver
+const sections = document.querySelectorAll('header[id], section[id]');
+const navLinks = document.querySelectorAll('.menu a[href^="#"], .brand[href^="#"]');
+
+// Map section id -> nav link
+const linkMap = {};
+navLinks.forEach(link => {
+    const id = link.getAttribute('href').substring(1); // remove '#'
+    linkMap[id] = link;
+});
+
+const observer = new IntersectionObserver(
+    (entries) => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+
+            const id = entry.target.id;
+
+            // clear all active classes
+            navLinks.forEach(link => link.classList.remove('active'));
+
+            // add active to the one that matches this section
+            const activeLink = linkMap[id];
+            if (activeLink) {
+                activeLink.classList.add('active');
+            }
+        });
+    },
+    {
+        root: null,
+        threshold: 0.55,              // how much of section must be visible
+        rootMargin: '0px 0px -20% 0px'
+    }
+);
+
+// observe all sections + header with ids
+sections.forEach(sec => observer.observe(sec));
+
 // Footer year 
 const year = document.querySelector('#year');
 if (year) year.textContent = new Date().getFullYear();
