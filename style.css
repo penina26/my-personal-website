@@ -39,7 +39,8 @@ body {
 }
 
 body {
-    font-family: Poppins, sans-serif;
+    /* font-family: Poppins, sans-serif; */
+    font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     color: var(--text-body);
     background: radial-gradient(circle at top, #020617 0, #020617 35%, #030712 100%);
     line-height: 1.6;
@@ -234,8 +235,8 @@ a {
     width: 100%;
     max-width: 300px;
     box-shadow:
-        0 6px 16px rgba(0, 0, 0, 0.75),
-        0 0 0 1px rgba(15, 23, 42, 0.8);
+        0 2px 6px rgba(0, 0, 0, 0.35),
+        0 0 0 1px rgba(15, 23, 42, 0.6);
     border: 1px solid var(--border-subtle);
     transition: transform 0.2s ease, box-shadow 0.2s ease,
         border-color 0.2s ease, background 0.2s ease;
