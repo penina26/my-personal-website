@@ -5,15 +5,15 @@
  > <em>Live site:</em> https://penina26.github.io/my-personal-website/ <br>
 
 ## Features
+🔹 Responsive layout with a project grid and mobile nav (hamburger, expandable menu)  
+🔹 Scrollspy navigation: active menu item highlights as you scroll through sections  
+🔹 Back-to-top button with smooth scrolling back to the hero section  
+🔹 Accessible contact form with inline validation, ARIA alerts, and error highlighting  
+🔹 SEO-ready: descriptive `<title>`, meta description/keywords, canonical URL, Open Graph & Twitter cards  
+🔹 Clean UI elements: tags/chips, animated hover underline, dark theme  
+🔹 Zero dependencies: no JS frameworks required  
+🔹 Tiny JS script: mobile nav toggle, scrollspy, back-to-top behavior, dynamic footer year, and client-side form validation
 
-- &#x1F539; Responsive layout with a project grid and mobile nav (hamburger, expandable menu)
-- &#x1F539; Scrollspy navigation: active menu item highlights as you scroll through sections
-- &#x1F539; Back-to-top button with smooth scrolling back to the hero section
-- &#x1F539; Accessible contact form with inline validation, ARIA alerts, and error highlighting
-- &#x1F539; SEO-ready: descriptive `<title>`, meta description/keywords, canonical URL, Open Graph & Twitter cards
-- &#x1F539; Clean UI elements: tags/chips, animated hover underline, dark theme
-- &#x1F539; Zero dependencies: no JS frameworks required
-- &#x1F539; Tiny JS script: mobile nav toggle, scrollspy, back-to-top behavior, dynamic footer year, and client-side form validation
 
 
 
