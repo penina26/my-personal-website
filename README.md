@@ -6,21 +6,15 @@
 
 ## Features
 
-    &#U+1F539; Responsive layout with a project grid and mobile nav (hamburger, expandable menu)
+- &#x1F539; Responsive layout with a project grid and mobile nav (hamburger, expandable menu)
+- &#x1F539; Scrollspy navigation: active menu item highlights as you scroll through sections
+- &#x1F539; Back-to-top button with smooth scrolling back to the hero section
+- &#x1F539; Accessible contact form with inline validation, ARIA alerts, and error highlighting
+- &#x1F539; SEO-ready: descriptive `<title>`, meta description/keywords, canonical URL, Open Graph & Twitter cards
+- &#x1F539; Clean UI elements: tags/chips, animated hover underline, dark theme
+- &#x1F539; Zero dependencies: no JS frameworks required
+- &#x1F539; Tiny JS script: mobile nav toggle, scrollspy, back-to-top behavior, dynamic footer year, and client-side form validation
 
-    &#U+1F539; Scrollspy navigation: active menu item highlights as you scroll through sections    
-
-    &#U+1F539; Back-to-top button with smooth scrolling back to the hero section
-
-    &#U+1F539; Accessible contact form with inline validation, ARIA alerts, and error highlighting
-
-    &#U+1F539; SEO-ready: descriptive <code>&lt;title&gt;</code>, meta description/keywords, canonical URL, Open Graph &amp; Twitter cards
-
-    &#U+1F539; Clean UI elements: tags/chips, animated hover underline, dark theme
-
-    &#U+1F539; Zero dependencies: no JS frameworks required
-
-    &#U+1F539; Tiny JS script: mobile nav toggle, scrollspy, back-to-top behavior, dynamic footer year, and client-side form validation
 
 
 ## Tech Stack
