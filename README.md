@@ -18,13 +18,13 @@
 
 
 ## Tech Stack
-<ul>
+<ol type="i">
     <li><strong>HTML5</strong> for structure (semantic sections for hero, projects, about, contact)</li>
     <li><strong>CSS3</strong> for layout and styling (Flexbox, Grid, custom properties / variables, responsive breakpoints)</li>
     <li><strong>Vanilla JavaScript</strong> for navigation toggle, scrollspy, smooth scrolling, and form validation</li>
     <li><strong>Font Awesome</strong> for navigation, call-to-action, and education icons</li>
     <li><strong>GitHub Pages</strong> for hosting and deployment</li>
-</ul>
+</ol>
 
 ## Project Structure
 ```text
