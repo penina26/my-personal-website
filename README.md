@@ -5,7 +5,7 @@
  > <em>Live site:</em> https://penina26.github.io/my-personal-website/ <br>
 
 ## Features
-<ul>
+
     &#U+1F539; Responsive layout with a project grid and mobile nav (hamburger, expandable menu)
 
     &#U+1F539; Scrollspy navigation: active menu item highlights as you scroll through sections    
@@ -21,7 +21,7 @@
     &#U+1F539; Zero dependencies: no JS frameworks required
 
     &#U+1F539; Tiny JS script: mobile nav toggle, scrollspy, back-to-top behavior, dynamic footer year, and client-side form validation
-</ul>
+
 
 ## Tech Stack
 <ul>
