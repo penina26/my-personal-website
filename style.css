@@ -349,7 +349,7 @@ blockquote.bio-quote {
     border-left: 4px solid #4fc3f7 !important;
     font-style: italic !important;
     text-align: left !important;
-    font-family: "Georgia", "Times New Roman", serif;
+    font-family: "Times New Roman" !important;
     font-weight: 400;
 
 }
