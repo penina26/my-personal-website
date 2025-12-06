@@ -342,6 +342,13 @@ a {
     color: var(--text-body);
 }
 
+.bio-quote {
+    margin-top: 0.75rem;
+    padding-left: 1rem;
+    border-left: 3px solid #4fc3f7;
+    font-style: italic;
+}
+
 /* education */
 .edu-list {
     list-style: none;
