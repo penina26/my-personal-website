@@ -345,10 +345,14 @@ a {
 blockquote.bio-quote {
     max-width: 60ch !important;
     margin: 0.75rem auto 0 !important;
-    padding-left: 1.5rem !important;
+    padding-left: 1rem !important;
     border-left: 4px solid #4fc3f7 !important;
     font-style: italic !important;
     text-align: left !important;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 400;
+
 }
 
 
