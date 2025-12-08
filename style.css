@@ -340,7 +340,7 @@ a {
     color: var(--text-body);
 }
 
-blockquote.bio-quote {
+/* blockquote.bio-quote {
     max-width: 70ch !important;
     margin: 0.75rem auto 0 !important;
     padding-left: 3.5rem !important;
@@ -351,18 +351,7 @@ blockquote.bio-quote {
     font-weight: 400;
     line-height: 1.6 !important;
 
-}
-
-/* the vertical line */
-blockquote.bio-quote::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 4px;
-    background: #4fc3f7;
-}
+} */
 
 /* education */
 .edu-list {
