@@ -190,11 +190,11 @@ a {
     position: relative;
     background-image:
         linear-gradient(to right, rgba(3, 7, 18, 0.92), rgba(3, 7, 18, 0.50)),
-        url("./images/portfolio_pic.jpeg");
+        url("./images/portfolio_pic.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 15%;
-    height: 400px;
+    height: 600px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -339,19 +339,6 @@ a {
 .bio {
     color: var(--text-body);
 }
-
-/* blockquote.bio-quote {
-    max-width: 70ch !important;
-    margin: 0.75rem auto 0 !important;
-    padding-left: 3.5rem !important;
-    border-left: 4px solid #4fc3f7 !important;
-    font-style: italic !important;
-    text-align: left !important;
-    font-family: "Times New Roman" !important;
-    font-weight: 400;
-    line-height: 1.6 !important;
-
-} */
 
 /* education */
 .edu-list {
